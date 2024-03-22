@@ -1,0 +1,62 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.navbar {
+    background-color: rgb(200, 198, 198);
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color:rgb(241, 241, 241);
+    color:gray;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover {
+    color:brown;
+}
+
+.carousel {
+    max-height: 600px;
+    overflow: hidden;
+}
+
+.navbar-toggler {
+    background-color: rgb(128, 128, 128); 
+}
+
+.section-title {
+    font-family: Pacifico, cursive;
+}
+
+#sobre-a-loja {
+    background-color: rgb(241, 241, 241);
+}
+
+.text-colored {
+    color:brown;
+}
+
+.loja-online .nav-link.active,
+#fale-conosco button {
+    background-color:  rgb(128, 128, 128);
+    color: black;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
+
